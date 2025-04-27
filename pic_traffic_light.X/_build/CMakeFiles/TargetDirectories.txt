@@ -1,0 +1,3 @@
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/pic_traffic_light.dir
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/edit_cache.dir
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/rebuild_cache.dir

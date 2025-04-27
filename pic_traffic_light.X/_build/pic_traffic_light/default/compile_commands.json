@@ -1,0 +1,14 @@
+[
+{
+  "directory": "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -IE:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\cmake\\pic_traffic_light\\default\\..\\..\\.. -c -mcpu=16F887 -mdfp=C:/Users/ADMIN/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8 -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\pic_traffic_light_default_default_XC8_compile.dir\\E_\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\lcd.c.p1 -c E:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\lcd.c",
+  "file": "E:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\lcd.c",
+  "output": "CMakeFiles\\pic_traffic_light_default_default_XC8_compile.dir\\E_\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\lcd.c.p1"
+},
+{
+  "directory": "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default",
+  "command": "c:\\PROGRA~1\\MICROC~1\\xc8\\v3.00\\bin\\xc8-cc.exe -DXPRJ_default=default -D__16F887__ -IE:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\cmake\\pic_traffic_light\\default\\..\\..\\.. -c -mcpu=16F887 -mdfp=C:/Users/ADMIN/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.6.156/xc8 -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -mwarn=-3 -Wa,-a -msummary=-psect,-class,+mem,-hex,-file -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -moscval=0x3400 -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits -std=c99 -gdwarf-3 -mstack=compiled:auto:auto:auto -o CMakeFiles\\pic_traffic_light_default_default_XC8_compile.dir\\E_\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\main.c.p1 -c E:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\main.c",
+  "file": "E:\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\main.c",
+  "output": "CMakeFiles\\pic_traffic_light_default_default_XC8_compile.dir\\E_\\242\\Micro-Controller\\BTL\\pic_traffic_light.X\\main.c.p1"
+}
+]

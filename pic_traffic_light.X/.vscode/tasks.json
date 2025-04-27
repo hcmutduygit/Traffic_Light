@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build PIC Traffic Light",
+            "type": "shell",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default",
+                "-v"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Task to build PIC16F887 project using CMake and XC8."
+        }
+    ]
+}

@@ -1,0 +1,299 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"4 E:\242\Micro-Controller\BTL\pic_traffic_light.X\74hc595.c
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+"11
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+"18
+[v _send_data send_data `(v  1 e 1 0 ]
+"29
+[v _Display_Numb Display_Numb `(v  1 e 1 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"9 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"3 E:\242\Micro-Controller\BTL\pic_traffic_light.X\lcd.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"11
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"20
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"88
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"104
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"9 E:\242\Micro-Controller\BTL\pic_traffic_light.X\main.c
+[v _setup setup `(v  1 e 1 0 ]
+"33
+[v _main main `(v  1 e 1 0 ]
+"68
+[v _ISR ISR `II(v  1 e 1 0 ]
+"5 E:\242\Micro-Controller\BTL\pic_traffic_light.X\traffic.c
+[v _Opposite_State Opposite_State `(v  1 e 1 0 ]
+"9
+[v _Auto_Mode Auto_Mode `(v  1 e 1 0 ]
+"78
+[v _Midnight_Mode Midnight_Mode `(v  1 e 1 0 ]
+"90
+[v _Manual_Mode Manual_Mode `(v  1 e 1 0 ]
+"9 E:\242\Micro-Controller\BTL\pic_traffic_light.X/74hc595.h
+[v _binary_pattern binary_pattern `[10]uc  1 e 10 0 ]
+"10
+[v _a a `ui  1 e 2 0 ]
+[v _b b `ui  1 e 2 0 ]
+"18 E:\242\Micro-Controller\BTL\pic_traffic_light.X/traffic.h
+[v _exitsign exitsign `VEuc  1 e 1 0 ]
+"19
+[v _turn turn `VEuc  1 e 1 0 ]
+"20
+[v _mode mode `VEuc  1 e 1 0 ]
+"226 C:/Users/ADMIN/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"288
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S191 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"305
+[u S200 . 1 `S191 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES200  1 e 1 @7 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S69 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"367
+[u S78 . 1 `S69 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES78  1 e 1 @8 ]
+"412
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+[s S103 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"480
+[s S112 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S117 . 1 `S103 1 . 1 0 `S112 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES117  1 e 1 @11 ]
+[s S29 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"1364
+[s S36 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+]
+[u S40 . 1 `S29 1 . 1 0 `S36 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES40  1 e 1 @129 ]
+"1476
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1538
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S218 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1555
+[u S227 . 1 `S218 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES227  1 e 1 @135 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S239 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"1617
+[u S248 . 1 `S239 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES248  1 e 1 @136 ]
+"1662
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3898
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"3925
+[v _INTE INTE `VEb  1 e 0 @92 ]
+"3928
+[v _INTEDG INTEDG `VEb  1 e 0 @1038 ]
+"4117
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"4120
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"4183
+[v _RD0 RD0 `VEb  1 e 0 @64 ]
+"4186
+[v _RD1 RD1 `VEb  1 e 0 @65 ]
+"4189
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4192
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4195
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4198
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4207
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"4606
+[v _WPUB0 WPUB0 `VEb  1 e 0 @1192 ]
+"4618
+[v _WPUB4 WPUB4 `VEb  1 e 0 @1196 ]
+"4621
+[v _WPUB5 WPUB5 `VEb  1 e 0 @1197 ]
+"33 E:\242\Micro-Controller\BTL\pic_traffic_light.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"66
+} 0
+"9
+[v _setup setup `(v  1 e 1 0 ]
+{
+"30
+} 0
+"78 E:\242\Micro-Controller\BTL\pic_traffic_light.X\traffic.c
+[v _Midnight_Mode Midnight_Mode `(v  1 e 1 0 ]
+{
+"81
+[v Midnight_Mode@i i `us  1 a 2 4 ]
+"88
+} 0
+"90
+[v _Manual_Mode Manual_Mode `(v  1 e 1 0 ]
+{
+"123
+[v Manual_Mode@i_357 i `us  1 a 2 6 ]
+"102
+[v Manual_Mode@i i `us  1 a 2 4 ]
+"147
+} 0
+"9
+[v _Auto_Mode Auto_Mode `(v  1 e 1 0 ]
+{
+"66
+[v Auto_Mode@i_352 i `us  1 a 2 10 ]
+"47
+[v Auto_Mode@i_351 i `us  1 a 2 8 ]
+"33
+[v Auto_Mode@i_350 i `us  1 a 2 6 ]
+"14
+[v Auto_Mode@i i `us  1 a 2 12 ]
+"76
+} 0
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 6 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 2 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 4 ]
+"53
+} 0
+"5 E:\242\Micro-Controller\BTL\pic_traffic_light.X\traffic.c
+[v _Opposite_State Opposite_State `(v  1 e 1 0 ]
+{
+"8
+} 0
+"29 E:\242\Micro-Controller\BTL\pic_traffic_light.X\74hc595.c
+[v _Display_Numb Display_Numb `(v  1 e 1 0 ]
+{
+[v Display_Numb@counter counter `i  1 p 2 0 ]
+"41
+} 0
+"18
+[v _send_data send_data `(v  1 e 1 0 ]
+{
+"20
+[v send_data@i i `i  1 a 2 8 ]
+"18
+[v send_data@data_out data_out `ui  1 p 2 3 ]
+"27
+} 0
+"11
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+{
+"16
+} 0
+"4
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+{
+"9
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 7 ]
+[v ___awmod@counter counter `uc  1 a 1 6 ]
+"5
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+[v ___awmod@dividend dividend `i  1 p 2 4 ]
+"34
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 8 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 7 ]
+[v ___awdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+[v ___awdiv@dividend dividend `i  1 p 2 4 ]
+"41
+} 0
+"68 E:\242\Micro-Controller\BTL\pic_traffic_light.X\main.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"78
+} 0

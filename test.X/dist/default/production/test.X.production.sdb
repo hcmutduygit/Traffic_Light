@@ -1,0 +1,112 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 E:\242\Micro-Controller\BTL\test.X\main.c
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+"28
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+"34
+[v _send_data send_data `(v  1 e 1 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+[s S53 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"243 C:/Users/ADMIN/.mchp_packs/Microchip/PIC16Fxxx_DFP/1.7.162/xc8\pic\include\proc/pic16f887.h
+[u S62 . 1 `S53 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES62  1 e 1 @6 ]
+[s S22 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"305
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES31  1 e 1 @7 ]
+"1476
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"4450
+[v _TRISC0 TRISC0 `VEb  1 e 0 @1080 ]
+"4453
+[v _TRISC1 TRISC1 `VEb  1 e 0 @1081 ]
+"4456
+[v _TRISC2 TRISC2 `VEb  1 e 0 @1082 ]
+"19 E:\242\Micro-Controller\BTL\test.X\main.c
+[v _binary_pattern binary_pattern `[10]uc  1 e 10 0 ]
+"20
+[v _counter counter `ui  1 e 2 0 ]
+"21
+[v _a a `ui  1 e 2 0 ]
+[v _b b `ui  1 e 2 0 ]
+[v _c c `ui  1 e 2 0 ]
+[v _d d `ui  1 e 2 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+} 0
+"34
+[v _send_data send_data `(v  1 e 1 0 ]
+{
+"36
+[v send_data@i i `i  1 a 2 6 ]
+"34
+[v send_data@data_out data_out `ui  1 p 2 1 ]
+"43
+} 0
+"28
+[v _latch_enable latch_enable `(v  1 e 1 0 ]
+{
+"33
+} 0
+"22
+[v _clock_signal clock_signal `(v  1 e 1 0 ]
+{
+"27
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 7 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 9 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0

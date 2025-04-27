@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pic_traffic_light_default_project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pic_traffic_light_default_default.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pic_traffic_light_default_default.elf-aeadc644ac1ca5ee1278.json",
+					"name" : "pic_traffic_light_default_default.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pic_traffic_light_default_default_XC8_compile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pic_traffic_light_default_default_XC8_compile-a584c266b9c7d8b42817.json",
+					"name" : "pic_traffic_light_default_default_XC8_compile",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default",
+		"source" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/cmake/pic_traffic_light/default"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

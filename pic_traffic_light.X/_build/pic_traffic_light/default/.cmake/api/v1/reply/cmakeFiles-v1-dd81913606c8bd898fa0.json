@@ -1,0 +1,130 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/3.29.2/CMakeSystem.cmake"
+		},
+		{
+			"path" : ".generated/toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/3.29.2/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeASMCompiler.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/Platform/Generic.cmake"
+		},
+		{
+			"path" : ".generated/overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"path" : ".generated/overrides.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "D:/User/c/share/cmake-3.29/Modules/CMakeTestASMCompiler.cmake"
+		},
+		{
+			"path" : ".generated/main.cmake"
+		},
+		{
+			"path" : ".generated/rule.cmake"
+		},
+		{
+			"path" : ".generated/file.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default",
+		"source" : "E:/242/Micro-Controller/BTL/pic_traffic_light.X/cmake/pic_traffic_light/default"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

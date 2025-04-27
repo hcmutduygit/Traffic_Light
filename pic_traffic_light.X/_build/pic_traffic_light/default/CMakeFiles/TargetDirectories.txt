@@ -1,0 +1,4 @@
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/pic_traffic_light_default_default_XC8_compile.dir
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/pic_traffic_light_default_default.elf.dir
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/edit_cache.dir
+E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/pic_traffic_light/default/CMakeFiles/rebuild_cache.dir

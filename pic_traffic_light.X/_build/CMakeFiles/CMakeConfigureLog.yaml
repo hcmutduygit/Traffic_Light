@@ -1,0 +1,146 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: D:/User/c/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/3.29.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1165 (message)"
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      gcc.exe (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 13.2.0
+      Copyright (C) 2023 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-cxely6"
+      binary: "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-cxely6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-cxely6'
+        
+        Run Build Command(s): D:/User/c/bin/ninja.exe -v cmTC_b90a8
+        [1/2] D:\\User\\c\\bin\\gcc.exe   -v -o CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj -c D:/User/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=D:\\User\\c\\bin\\gcc.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b90a8.dir/'
+         D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT D:/User/c/share/cmake-3.29/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b90a8.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccxgIUx7.s
+        GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/User/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "R:/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring nonexistent directory "/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc/include"
+        ignoring duplicate directory "D:/User/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "D:/User/c/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include
+         D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 71996911801439ebea1892f3f3ba3826
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b90a8.dir/'
+         D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccxgIUx7.s
+        GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r8) 2.42
+        COMPILER_PATH=D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/User/c/bin/../libexec/gcc/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/User/c/bin/../lib/gcc/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\User\\c\\bin\\gcc.exe  -v CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj -o cmTC_b90a8   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=D:\\User\\c\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        OFFLOAD_TARGET_NAMES=nvptx-none
+        Target: x86_64-w64-mingw32
+        Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-13.2.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-13.2.0/build_mingw/mingw-w64 CFLAGS='-I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2' CXXFLAGS='-Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r8) 
+        COMPILER_PATH=D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;D:/User/c/bin/../libexec/gcc/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;D:/User/c/bin/../lib/gcc/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b90a8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b90a8.'
+         D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=D:/User/c/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ADMIN\\AppData\\Local\\Temp\\ccXJNhPk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_b90a8.exe D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LD:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LD:/User/c/bin/../lib/gcc -LD:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LD:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LD:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_b90a8.dir/CMakeCCompilerABI.c.obj -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/User/c/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b90a8.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_b90a8.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/User/c/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Check for working C compiler: D:/User/c/bin/gcc.exe"
+    directories:
+      source: "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-on43j1"
+      binary: "E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-on43j1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-on43j1'
+        
+        Run Build Command(s): D:/User/c/bin/ninja.exe -v cmTC_b10e2
+        [1/2] D:\\User\\c\\bin\\gcc.exe    -o CMakeFiles/cmTC_b10e2.dir/testCCompiler.c.obj -c E:/242/Micro-Controller/BTL/pic_traffic_light.X/_build/CMakeFiles/CMakeScratch/TryCompile-on43j1/testCCompiler.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && D:\\User\\c\\bin\\gcc.exe   CMakeFiles/cmTC_b10e2.dir/testCCompiler.c.obj -o cmTC_b10e2   && cd ."
+        
+      exitCode: 0
+...
